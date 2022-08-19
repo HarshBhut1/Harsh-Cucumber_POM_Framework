@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-18T18:58:35 EDT" name="BDD Test Suite" finished-at="2022-08-18T18:59:35 EDT" duration-ms="59732">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-18T18:58:35 EDT" name="Landing Page Features" finished-at="2022-08-18T18:59:35 EDT" duration-ms="59732">
+      <class name="testRunners.TestRunner">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:35 EDT" name="beforeSuite" finished-at="2022-08-18T18:58:35 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:35 EDT" name="beforeTest" finished-at="2022-08-18T18:58:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:35 EDT" name="setUpClass" finished-at="2022-08-18T18:58:36 EDT" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@508dec2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:26 EDT" duration-ms="49903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Landing Page Header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Landing Page Tests are written here"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:27 EDT" duration-ms="50236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify presence of forgot password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Tests are written"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:26 EDT" duration-ms="50036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify presence of Remember me link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Tests are written"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:27 EDT" duration-ms="50599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Join button verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Landing Page Tests are written here"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:28 EDT" duration-ms="51631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Landing Page Tittle"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Landing Page Tests are written here"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:27 EDT" duration-ms="50315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Page header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Tests are written"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:23 EDT" duration-ms="46833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify presence of Sign up link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Tests are written"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:24 EDT" duration-ms="47524" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login button verification and landing on login Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Landing Page Tests are written here"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Rahul Shetty Academy123] but found [Rahul Shetty Academy]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Rahul Shetty Academy123] but found [Rahul Shetty Academy]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at stepDefinitions.LandingPageStep.login_page_tittle_should_be(LandingPageStep.java:69)
+at ✽.login page tittle should be "Rahul Shetty Academy123"(file:///D:/IT%20Square/POM/Harsh_Cucumber_POM_Framework/src/test/resources/appFeatures/LandingPage.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:19 EDT" duration-ms="42871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Tests are written"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:58:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:20 EDT" duration-ms="43482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Example with testNG1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["given is an example of the Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:59:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:28 EDT" duration-ms="9169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Example with testNG2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["given is an example of the Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:59:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:29 EDT" duration-ms="8895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Example with testNG3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["given is an ex of the Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:59:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-18T18:59:29 EDT" duration-ms="6288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Example with testNG4"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["given is an ex of the Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:59:29 EDT" name="tearDownClass" finished-at="2022-08-18T18:59:35 EDT" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:59:35 EDT" name="afterTest" finished-at="2022-08-18T18:59:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testRunners.TestRunner@5ab956d7]" started-at="2022-08-18T18:59:35 EDT" name="afterSuite" finished-at="2022-08-18T18:59:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testRunners.TestRunner -->
+    </test> <!-- Landing Page Features -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
